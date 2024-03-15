@@ -1,0 +1,14 @@
+language: 'noir'
+
+tasks:
+  build:
+    command: 'nargo compile && nargo codegen-verifier'
+    inputs:
+      - 'src/**/*'
+    outputs:
+      - 'target'
+      - 'contract'
+  fmt:
+    command: 'nargo fmt'
+  clean:
+    command: 'rm -rf target contract'
