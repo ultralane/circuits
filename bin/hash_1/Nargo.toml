@@ -1,0 +1,8 @@
+[package]
+name = "hash_1"
+type = "bin"
+authors = [""]
+compiler_version = ">=0.25.0"
+
+[dependencies]
+lib = { path = "../../lib" }
