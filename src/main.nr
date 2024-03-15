@@ -1,4 +1,5 @@
 mod keypair;
+mod hash;
 
 fn main(x: Field, y: pub Field) {
     assert(x != y);
