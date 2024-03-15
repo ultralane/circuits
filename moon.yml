@@ -1,0 +1,18 @@
+language: 'noir'
+
+dependsOn:
+  - 'hash_1'
+  - 'hash_2'
+  - 'hash_3'
+  - 'lib'
+
+tasks:
+  build:
+    deps:
+      - '^:build'
+  clean:
+    deps:
+      - '^:clean'
+  fmt:
+    deps:
+      - '^:fmt'
