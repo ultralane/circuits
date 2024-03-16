@@ -1,9 +1,14 @@
 language: 'noir'
 
 dependsOn:
+  - 'compute_merkle_root'
   - 'hash_1'
   - 'hash_2'
   - 'hash_3'
+  - 'input'
+  - 'note'
+  - 'split_join_16'
+  - 'split_join_32'
   - 'lib'
 
 tasks:

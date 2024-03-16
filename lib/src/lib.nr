@@ -3,3 +3,4 @@ mod hash;
 mod input;
 mod keypair;
 mod note;
+mod split_join;

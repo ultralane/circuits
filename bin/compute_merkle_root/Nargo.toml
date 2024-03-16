@@ -1,0 +1,8 @@
+[package]
+name = "compute_merkle_root"
+type = "bin"
+authors = [""]
+compiler_version = ">=0.25.0"
+
+[dependencies]
+lib = { path = "../../lib" }

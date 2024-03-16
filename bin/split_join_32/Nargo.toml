@@ -1,0 +1,8 @@
+[package]
+name = "split_join_32"
+type = "bin"
+authors = [""]
+compiler_version = ">=0.25.0"
+
+[dependencies]
+lib = { path = "../../lib" }
