@@ -5,7 +5,7 @@ dependsOn:
   - 'hash_1'
   - 'hash_2'
   - 'hash_3'
-  - 'input'
+  - 'input_16'
   - 'note'
   - 'split_join_16'
   - 'split_join_32'
